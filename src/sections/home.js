@@ -6,10 +6,14 @@ import Logo from '../components/Logo';
 import Section from '../components/Section';
 import SocialLink from '../components/SocialLink';
 
+const Background = () => (
+    <div>  </div>
+);
+
 const centerHorizontally = { marginRight: 'auto', marginLeft: 'auto' };
 
 const Home = () => (
-    <Section.Container id="home">
+    <Section.Container id="home" Background={Background}>
         <StaticQuery
             query={graphql`
                 {
