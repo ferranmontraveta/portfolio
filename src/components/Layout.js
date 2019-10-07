@@ -19,7 +19,7 @@ const GlobalStyle = createGlobalStyle`
     background: linear-gradient(to top, #24252a, #01586A);
     font-family: 'Exo', sans-serif;
     font-display: swap;
-    font-display: fallback;
+    // font-display: fallback;
     overflow-x: hidden;
   }
 `;
