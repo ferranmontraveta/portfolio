@@ -23,6 +23,6 @@ module.exports = {
     },
     `@contentful/gatsby-transformer-contentful-richtext`,
     'gatsby-transformer-remark',
-    //'gatsby-plugin-offline',
+    'gatsby-plugin-offline',
   ]
 }
