@@ -6,11 +6,11 @@ import Logo from '../components/Logo';
 import Section from '../components/Section';
 import SocialLink from '../components/SocialLink';
 
+const centerHorizontally = { marginRight: 'auto', marginLeft: 'auto' };
+
 const Background = () => (
     <div>  </div>
 );
-
-const centerHorizontally = { marginRight: 'auto', marginLeft: 'auto' };
 
 const Home = () => (
     <Section.Container id="home" Background={Background}>

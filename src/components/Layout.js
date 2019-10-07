@@ -13,7 +13,7 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: inherit;
     }
 
-  body {
+  html {
     @import url('https://fonts.googleapis.com/css?family=Exo:100&display=swap');
     box-sizing: border-box; 
     margin: 0;

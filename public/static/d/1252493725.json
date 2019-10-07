@@ -1,1 +1,0 @@
-{"errors":[{"message":"Cannot query field \"aboutText\" on type \"ContentfulAbout\". Did you mean \"aboutMe\"?","locations":[{"line":3,"column":5}]}]}
