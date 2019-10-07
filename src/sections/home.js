@@ -43,7 +43,7 @@ const Home = () => (
                         fontSize={[3, 4, 5]}
                         mb={[3, 5]}
                         textAlign="center"
-                        font-display= "fallback"
+                        font-display= "block"
                         style={centerHorizontally}
                     >
                         <TextLoop interval={3000}>
