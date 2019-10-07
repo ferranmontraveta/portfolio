@@ -1,5 +1,0 @@
-checks:
-  method-lines:
-    enabled: true
-    config:
-      threshold: 100
