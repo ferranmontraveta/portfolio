@@ -9,6 +9,15 @@ const StyledHeader1 = styled.h1`
     font-size: 7em;
     margin: auto;
     margin-bottom: -2rem;
+
+    @media screen and (max-width:600px) {
+        transform: scale(0.8);
+        margin-bottom: -3rem;
+    }
+    @media screen and (max-width:470px) {
+        transform: scale(0.55);
+        margin-bottom: -3.5rem;
+    }
 `;
 
 const StyledHeader2 = styled.h2`
@@ -19,12 +28,24 @@ const StyledHeader2 = styled.h2`
     margin: auto;
     margin-top: -0.5rem;
     margin-bottom: 3rem;
+
+    @media screen and (max-width:600px) {
+        transform: scale(0.8);
+        margin-bottom: 1rem;
+        margin-top: -1rem;
+    }
+    @media screen and (max-width:470px) {
+        transform: scale(0.55);
+        margin-bottom: 0.5rem;
+        margin-top: -1.3rem;
+    }
 `;
 
 const LogoBox = styled.div`
     width: 100%;
-    display:flex;
+    display: flex;
     flex-direction: column;
+    background:black;
 
     &:hover {
         animation: logoanime 0.3s linear forwards;
@@ -43,15 +64,7 @@ const LogoBox = styled.div`
 `;
 
 const Line = styled.hr`
-    width:33rem;
-
-    @media screen and (max-width:834px) {
-        width:18rem;
-    }
-
-    @media screen and (max-width:640px) {
-        width:13rem;
-    }
+    width:70%;
 `;
 
 export default props => 
@@ -62,5 +75,5 @@ export default props =>
     <Line/>
     <StyledHeader2>
         {props.surnames}
-    </StyledHeader2>
+    </StyledHeader2>    
 </LogoBox>
