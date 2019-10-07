@@ -18,6 +18,10 @@ const StyledHeader1 = styled.h1`
         transform: scale(0.55);
         margin-bottom: -3.5rem;
     }
+    @media screen and (max-width:440px) {
+        font-size: 5rem;
+        margin-bottom: -2.5rem;
+    }
 `;
 
 const StyledHeader2 = styled.h2`
@@ -39,13 +43,17 @@ const StyledHeader2 = styled.h2`
         margin-bottom: 0.5rem;
         margin-top: -1.3rem;
     }
+    @media screen and (max-width:440px) {
+        font-size: 2rem;
+        margin-bottom: 0.5rem;
+        margin-top: -1rem;
+    }
 `;
 
 const LogoBox = styled.div`
     width: 100%;
     display: flex;
     flex-direction: column;
-    background:black;
 
     &:hover {
         animation: logoanime 0.3s linear forwards;

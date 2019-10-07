@@ -20,14 +20,6 @@ const Home = () => (
             `}
             render={data => 
                 <Fragment>
-                    <Heading
-                        textAlign="center"
-                        fontFamily="Exo"
-                        color='rgba(255, 255, 0, 0.555)'
-                    >
-                        <h2>This is a work in progress, final version coming soon! :)</h2>
-                    </Heading>
-
                     <Logo name="FERRAN" surnames="MONTRAVETA ROCA" />
 
                     <Heading
@@ -76,6 +68,14 @@ const Home = () => (
                             />
                         </Box>
                     </Flex>
+                    <Heading
+                        textAlign="center"
+                        fontFamily="Exo"
+                        fontSize="1rem"
+                        color='rgba(255, 255, 0, 0.555)'
+                    >
+                        <h2>This is a work in progress, final version coming soon! :)</h2>
+                    </Heading>
                 </Fragment>
             }
         ></StaticQuery>
