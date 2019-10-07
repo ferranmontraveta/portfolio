@@ -6,14 +6,10 @@ import Logo from '../components/Logo';
 import Section from '../components/Section';
 import SocialLink from '../components/SocialLink';
 
-const Background = () => (
-    <div>  </div>
-);
-
 const centerHorizontally = { marginRight: 'auto', marginLeft: 'auto' };
 
 const Home = () => (
-    <Section.Container id="home" Background={Background}>
+    <Section.Container id="home">
         <StaticQuery
             query={graphql`
                 {
@@ -29,7 +25,7 @@ const Home = () => (
                         fontFamily="exo"
                         color='rgba(255, 255, 0, 0.555)'
                     >
-                        <h3>This is a work in progress, final version coming soon! :)</h3>
+                        <h2>This is a work in progress, final version coming soon! :)</h2>
                     </Heading>
                     <Heading
                         textAlign="center"
