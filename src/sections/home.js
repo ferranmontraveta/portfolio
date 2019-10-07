@@ -1,19 +1,15 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import { StaticQuery, graphql } from 'gatsby';
 import { Text, Heading, Flex, Box } from 'rebass';
 import TextLoop from 'react-text-loop';
 import Logo from '../components/Logo';
 import Section from '../components/Section';
 import SocialLink from '../components/SocialLink';
-
+  
 const centerHorizontally = { marginRight: 'auto', marginLeft: 'auto' };
 
-const Background = () => (
-    <div>  </div>
-);
-
 const Home = () => (
-    <Section.Container id="home" Background={Background}>
+    <Section.Container id="home">
         <StaticQuery
             query={graphql`
                 {
@@ -23,7 +19,7 @@ const Home = () => (
                 }
             `}
             render={data => 
-                <div>
+                <Fragment>
                     <Heading
                         textAlign="center"
                         fontFamily="exo"
@@ -31,6 +27,7 @@ const Home = () => (
                     >
                         <h2>This is a work in progress, final version coming soon! :)</h2>
                     </Heading>
+
                     <Heading
                         textAlign="center"
                         as="h2"
@@ -87,7 +84,7 @@ const Home = () => (
                             />
                         </Box>
                     </Flex>
-                </div>
+                </Fragment>
             }
         ></StaticQuery>
     </Section.Container>

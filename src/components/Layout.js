@@ -13,11 +13,10 @@ const GlobalStyle = createGlobalStyle`
     box-sizing: inherit;
     }
 
-  html {
-    @import url('https://fonts.googleapis.com/css?family=Exo:100&display=swap');
+  body {
     box-sizing: border-box; 
     margin: 0;
-    background: linear-gradient(to bottom, #24252a, #01586A);
+    background: linear-gradient(to top, #24252a, #01586A);
     font-family: 'Exo', sans-serif;
     font-display: swap;
     font-display: fallback;

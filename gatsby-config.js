@@ -1,3 +1,5 @@
+const contentful = require('contentful');
+const manifestConfig = require('./manifest-config');
 const dotenv = require('dotenv')
 
 if (process.env.NODE_ENV != 'production') {
@@ -9,6 +11,10 @@ module.exports = {
   plugins: [
     'gatsby-plugin-styled-components',
     {
+      resolve: 'gatsby-plugin-manifest',
+      options: manifestConfig,
+    },
+    {
       resolve: `gatsby-source-contentful`,
       options: {
         spaceId:`b6lrqzvm884p`,
@@ -17,20 +23,7 @@ module.exports = {
       }
     },
     `@contentful/gatsby-transformer-contentful-richtext`,
-    {
-      resolve: `gatsby-transformer-remark`,
-      options: {
-        // CommonMark mode (default: true)
-        commonmark: true,
-        // Footnotes mode (default: true)
-        footnotes: true,
-        // Pedantic mode (default: true)
-        pedantic: true,
-        // GitHub Flavored Markdown mode (default: true)
-        gfm: true,
-        // Plugins configs
-        plugins: [],
-      },
-    },
+    'gatsby-transformer-remark',
+    'gatsby-plugin-offline',
   ]
 }

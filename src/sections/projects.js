@@ -6,12 +6,8 @@ import CardAndModal from "../components/CardAndModal"
 
 import '../sections/projects.css'
 
-const Background = () => (
-    <div></div>
-);
-
 const Projects = () => (
-    <Section.Container sytle="margin:-200px" id="projects" Background={Background}>
+    <Section.Container sytle="margin:-200px" id="projects" >
       <Section.Header name="Projects" icon="💻" label="person" />
         <Slide left>
             <StaticQuery
