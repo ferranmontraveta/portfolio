@@ -6,19 +6,26 @@ const StyledHeader1 = styled.h1`
     font-family: 'Exo', sans-serif;
     font-weight: thin;
     color: #aeb1c2;
-    font-size: 1.5em;
-    margin-bottom: -0.55em;
+    font-size: 7em;
+    margin: auto;
+    margin-bottom: -2rem;
 `;
 
 const StyledHeader2 = styled.h2`
     font-family: 'Exo', sans-serif;
     font-weight: thin;
     color: #aeb1c2;
-    font-size: 0.589em;
-    margin-top: -0.8em;
+    font-size: 2.7em;
+    margin: auto;
+    margin-top: -0.5rem;
+    margin-bottom: 3rem;
 `;
 
 const LogoBox = styled.div`
+    width: 100%;
+    display:flex;
+    flex-direction: column;
+
     &:hover {
         animation: logoanime 0.3s linear forwards;
     }

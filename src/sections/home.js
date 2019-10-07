@@ -28,14 +28,7 @@ const Home = () => (
                         <h2>This is a work in progress, final version coming soon! :)</h2>
                     </Heading>
 
-                    <Heading
-                        textAlign="center"
-                        as="h2"
-                        fontSize={[5, 6, 8]}
-                        mb={[3, 4, 2]}
-                    >
-                        <Logo name="FERRAN" surnames="MONTRAVETA ROCA" />
-                    </Heading>
+                    <Logo name="FERRAN" surnames="MONTRAVETA ROCA" />
 
                     <Heading
                         fontFamily="Exo"
@@ -43,7 +36,6 @@ const Home = () => (
                         fontSize={[3, 4, 5]}
                         mb={[3, 5]}
                         textAlign="center"
-                        font-display= "block"
                         style={centerHorizontally}
                     >
                         <TextLoop interval={3000}>
