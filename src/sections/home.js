@@ -22,6 +22,7 @@ const Home = () => (
                 <Fragment>
                     <Heading
                         textAlign="center"
+                        fontFamily="Exo"
                         color='rgba(255, 255, 0, 0.555)'
                     >
                         <h2>This is a work in progress, final version coming soon! :)</h2>
@@ -37,6 +38,7 @@ const Home = () => (
                     </Heading>
 
                     <Heading
+                        fontFamily="Exo"
                         color="rgb(61, 176, 199)"
                         fontSize={[3, 4, 5]}
                         mb={[3, 5]}
