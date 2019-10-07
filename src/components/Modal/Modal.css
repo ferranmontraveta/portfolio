@@ -1,0 +1,117 @@
+.modal {
+    width: 70%;
+    background: #01586A;
+    box-shadow: 15px 15px 3px rgba(0, 0, 0, 0.2);
+    position: fixed;
+    top: 5vh;
+    left: 13.5%;
+    animation: modalAnimation 0.5s linear forwards;
+    transform: translateY(100vh);
+}
+@keyframes modalAnimation
+{
+    0%
+    {
+        transform: translateY(100vh);
+    }
+    10%
+    {
+        transform: translateY(73vh);
+    }
+    50%
+    {
+        transform: translateY(75vh);
+    }
+    65%
+    {
+        transform: translateY(73vh);
+    }
+    85%
+    {
+        transform: translateY(-4vh);
+    }
+    100%
+    {
+        transform: translateY(0);
+    }
+}
+
+.modal__header {
+    display: flex;
+    background: rgb(0, 70, 83);
+    height: 6rem;
+}
+
+.modal__header h1 {
+    margin: 0;
+    padding: 0.5rem;
+    padding-left: 1rem;
+    font-size: 2.5rem;
+    margin: auto;
+    margin-left: 0.5rem;
+    color: white;
+}
+
+.modal__content {
+    padding: 1rem;
+}
+
+.modal__actions {
+    margin: 0
+}
+
+.button {
+    background-color: rgb(0, 70, 83);
+    color: white;
+    border: none;
+    font-size: 1.25rem;
+    cursor: pointer;
+    margin: 0.5rem;
+}
+
+.icon {
+    transition: color 0.5s;
+    color: #01586A;
+}
+
+a {
+    font-size: 3rem;
+    margin: auto;
+    margin-right: 2rem;
+}
+
+.icon:hover {
+    color: rgb(61, 176, 199);
+}
+
+@media screen and (max-width:990px) {
+    .modal {
+        width: 90%;
+        left: calc((100% - 90%) / 2);
+    }
+
+    .modal__header {
+        height: 4rem;
+    }
+
+    .modal__header h1 {
+        font-size: 1.8rem;
+        margin: auto;
+        margin-left: 0.5rem;
+    }
+}
+
+@media screen and (max-width:420px) {
+    .modal {
+        width: 90%;
+        left: calc((100% - 90%) / 2);
+    }
+
+    .modal__header h1 {
+        font-size: 1.4rem;
+    }
+
+    a {
+        margin-right: 0rem;
+    }
+}

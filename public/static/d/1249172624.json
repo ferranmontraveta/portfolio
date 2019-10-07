@@ -1,0 +1,1 @@
+{"errors":[{"message":"Cannot query field \"contentfulHome\" on type \"Query\".","locations":[{"line":2,"column":3}]}]}

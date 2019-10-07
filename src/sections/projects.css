@@ -1,0 +1,122 @@
+.slide {
+    display: flex;
+    flex: 1;
+    flex-direction: column;
+    width: 90vw;
+    margin-left: 5vw;
+    margin-right: 5vw;
+}
+
+.lables {
+    margin: auto;
+}
+
+.project-row {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.pj {
+    cursor: pointer;
+    height: 32vh;
+    width: 22vw;
+    margin: 1vh;
+    border: 1px solid rgb(12, 127, 150);
+    box-shadow: 2px 2px rgba(12, 127, 150, 0.651);
+}
+
+.pj:hover {
+    animation: boxanime 0.33s linear forwards;
+}
+@keyframes boxanime
+{
+    0%
+    {
+        box-shadow: 2px 2px rgba(90, 216, 241, 0.452);
+        background: rgba(1, 89, 106, 0);
+        transform: translateY(0px);
+    }
+    75%
+    {
+        border: 1px solid rgba(131, 233, 253, 0.452);
+        box-shadow: 2px 2px rgba(90, 216, 241, 0.452);
+        transform: translateY(0px);
+    }
+    100%
+    {
+        border: 1px solid rgba(131, 233, 253, 0.452);
+        box-shadow: 2px 2px 10px #02020257;
+        background: rgba(0, 213, 255, 0.048);
+        transform: translateY(-10px);
+    }
+}
+
+h3 {
+    font-weight: thin;
+    color: #a9ddd6;
+    font-size: 3em;
+    margin-bottom: 2vw;
+}
+
+@media screen and (max-width:1650px) {
+    .pj {
+        width: 25vw;
+        height: 33vh;
+    }
+}
+
+@media screen and (max-width:1418px) {
+    .pj {
+        width: 30vw;
+        height: 31vh;
+    }
+}
+
+@media screen and (max-width:1140px) {
+    .pj {
+        width: 46vw;
+        height: 23vh;
+    }
+}
+
+@media screen and (max-width:1062px) {
+    .pj {
+        width: 45vw;
+        height: 23vh;
+    }
+}
+
+@media screen and (max-width:850px) {
+    .pj {
+        width: 44vw;
+        height: 23vh;
+    }
+}
+
+@media screen and (max-width:712px) {
+    .pj {
+        width: 88vw;
+        height: 15vh;
+    }
+}
+
+@media screen and (max-width:620px) {
+    .pj {
+        width: 88vw;
+        height: 10vh;
+    }
+}
+
+@media screen and (max-width:480px) {
+    .pj {
+        width: 85vw;
+        height: 10vh;
+    }
+}
+
+@media screen and (max-width:350px) {
+    .pj {
+        width: 85vw;
+        height: 7vh;
+    }
+}
