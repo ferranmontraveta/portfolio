@@ -22,7 +22,7 @@ const Home = () => (
                 <Fragment>
                     <Heading
                         textAlign="center"
-                        fontFamily="exo"
+                        fontFamily="Exo"
                         color='rgba(255, 255, 0, 0.555)'
                     >
                         <h2>This is a work in progress, final version coming soon! :)</h2>
