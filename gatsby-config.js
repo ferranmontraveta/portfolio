@@ -30,8 +30,5 @@ module.exports = {
         plugins: [],
       },
     },
-    {
-      resolve: `react-reveal`,
-    }
   ]
 }
