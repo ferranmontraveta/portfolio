@@ -7,6 +7,10 @@ import Fade from 'react-reveal/Fade';
 import Section from '../components/Section';
 import markdownRenderer from '../components/MarkdownRenderer';
 
+const Background = () => (
+  <div>  </div>
+);
+
 const ProfilePicture = styled(Image)`
   border-radius: 50%;
   transition: all 0.2s ease-out;
@@ -15,10 +19,6 @@ const ProfilePicture = styled(Image)`
     border-radius: 10%;
   }
 `;
-
-const Background = () => (
-  <div>  </div>
-);
 
 const About = () => (
   <Section.Container id="about" Background={Background}>
