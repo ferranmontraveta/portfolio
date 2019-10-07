@@ -9,8 +9,6 @@ const IndexPage = () => (
     <Layout class="pagelayout">
         <Header />
         <Home />
-        <About />
-        <Projects />
     </Layout>
 );
   
