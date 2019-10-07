@@ -1,4 +1,5 @@
 const dotenv = require('dotenv')
+require('./src/sections/projects.css')
 
 if (process.env.NODE_ENV != 'production') {
   dotenv.config()
