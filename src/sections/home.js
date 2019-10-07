@@ -29,7 +29,7 @@ const Home = () => (
                         fontFamily="exo"
                         color='rgba(255, 255, 0, 0.555)'
                     >
-                        <h1>This is a work in progress, final version coming soon! :)</h1>
+                        <h3>This is a work in progress, final version coming soon! :)</h3>
                     </Heading>
                     <Heading
                         textAlign="center"
@@ -82,7 +82,7 @@ const Home = () => (
                             <SocialLink
                                 fontAwesomeIcon="fab fa-envelope"
                                 name="Contact Me"
-                                url="https://emanuelsuriano.typeform.com/to/OeETl6"
+                                url="https://ferranmontraveta.typeform.com/to/qaXwzo"
                                 color="rgb(61, 176, 199)"
                             />
                         </Box>
