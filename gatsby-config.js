@@ -31,7 +31,7 @@ module.exports = {
       },
     },
     {
-      resolve: `gatsby-reveal`,
+      resolve: `react-reveal`,
     }
   ]
 }
