@@ -8,6 +8,7 @@ import Header from '../components/Header';
 const IndexPage = () => (
     <Layout class="pagelayout">
         <Header />
+        <Home />
         <Projects />
     </Layout>
 );
