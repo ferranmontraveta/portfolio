@@ -30,5 +30,8 @@ module.exports = {
         plugins: [],
       },
     },
+    {
+      resolve: `gatsby-reveal`,
+    }
   ]
 }
