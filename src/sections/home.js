@@ -38,7 +38,6 @@ const Home = () => (
                     </Heading>
 
                     <Heading
-                        as="h2"
                         fontFamily="Exo"
                         color="rgb(61, 176, 199)"
                         fontSize={[3, 4, 5]}
