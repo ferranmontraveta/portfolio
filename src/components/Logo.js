@@ -45,7 +45,7 @@ const StyledHeader2 = styled.h2`
     }
     @media screen and (max-width:440px) {
         font-size: 2rem;
-        margin-bottom: 0.5rem;
+        margin-bottom: 4rem;
         margin-top: -1rem;
     }
 `;

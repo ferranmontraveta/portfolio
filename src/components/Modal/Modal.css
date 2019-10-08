@@ -8,6 +8,7 @@
     animation: modalAnimation 0.5s linear forwards;
     transform: translateY(100vh);
 }
+
 @keyframes modalAnimation
 {
     0%

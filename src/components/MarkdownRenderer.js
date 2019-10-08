@@ -3,6 +3,8 @@ import { SectionLink } from 'react-scroll-section';
 import styled from 'styled-components';
 import PropTypes from 'prop-types';
 
+import './MarkdownRenderer.css'
+
 const StyledLink = styled.a`
   display: inline-block;
   transition: color 250ms, text-shadow 250ms;

@@ -43,7 +43,7 @@ const Home = () => (
                     </Heading>
 
                     <Flex alignItems="center" justifyContent="center" flexWrap="wrap">
-                        <Box mx={3} fontSize={[5, 6, 6]}>
+                        <Box mx={3} fontSize={2}>
                             <SocialLink
                                 fontAwesomeIcon="fab fa-linkedin"
                                 name="LinkedIn"
@@ -51,7 +51,7 @@ const Home = () => (
                                 color="rgb(61, 176, 199)"
                             />
                         </Box>
-                        <Box mx={3} fontSize={[5, 6, 6]}>
+                        <Box mx={3} fontSize={2}>
                             <SocialLink
                                 fontAwesomeIcon="fab fa-github"
                                 name="Github"
@@ -59,7 +59,7 @@ const Home = () => (
                                 color="rgb(61, 176, 199)"
                             />
                         </Box>
-                        <Box mx={3} fontSize={[5, 6, 6]}>
+                        <Box mx={3} fontSize={2}>
                             <SocialLink
                                 fontAwesomeIcon="fab fa-envelope"
                                 name="Contact Me"

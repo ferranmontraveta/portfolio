@@ -21,7 +21,7 @@ const ProfilePicture = styled(Image)`
 `;
 
 const About = () => (
-  <Section.Container id="about" Background={Background}>
+  <Section.Container id="about" Background={Background} height={10}>
     <Section.Header name="About me" icon="🙋‍♂️" label="person" />
     <StaticQuery
       query={graphql`
@@ -43,7 +43,7 @@ const About = () => (
       render={data => {
         return (
           <Flex justifyContent="center" alignItems="center" flexWrap="wrap">
-            <Box width={[1, 1, 4 / 6]} px={[1, 2, 4]}>
+            <Box width={[1, 1, 4 / 6]} px={4}>
               <Fade bottom>
                 <ReactMarkdown
                   source={data.contentfulAbout.aboutMe.childMarkdownRemark.rawMarkdownBody}
