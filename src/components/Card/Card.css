@@ -22,6 +22,10 @@
     flex: 5 1;
 }
 
+.techs {
+    margin-right: 1.5rem;
+}
+
 h6 {
     font-weight: thin;
     color: #ffffff7a;
