@@ -65,9 +65,9 @@ h3 {
     }
 }
 
-@media screen and (max-width:1418px) {
+@media screen and (max-width:1450px) {
     .pj {
-        width: 30vw;
+        width: 28vw;
         height: 31vh;
     }
 }
