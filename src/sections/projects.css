@@ -60,43 +60,42 @@ h3 {
 
 @media screen and (max-width:1650px) {
     .pj {
-        width: 25vw;
-        height: 33vh;
+        width: 28vw;
+        height: 38vh;
     }
 }
 
-@media screen and (max-width:1450px) {
+@media screen and (max-width:1460px) {
     .pj {
         width: 28vw;
-        height: 33vh;
+        height: 45vh;
     }
 }
 
 @media screen and (max-width:1140px) {
     .pj {
         width: 46vw;
-        height: 23vh;
+        height: 30vh;
     }
 }
 
 @media screen and (max-width:1062px) {
     .pj {
         width: 45vw;
-        height: 23vh;
     }
 }
 
 @media screen and (max-width:850px) {
     .pj {
         width: 44vw;
-        height: 23vh;
+        height: 25vh;
     }
 }
 
 @media screen and (max-width:712px) {
     .pj {
         width: 88vw;
-        height: 15vh;
+        height: 20vh;
     }
 }
 
