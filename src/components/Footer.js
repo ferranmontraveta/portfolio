@@ -8,7 +8,7 @@ const FooterContainer = styled.footer`
   min-width: 320px;
   max-width: 1366px;
   display: flex;
-  flex-direction: row;
+  flex-direction: column;
   justify-content: space-between;
   align-items: center;
   margin: auto;
@@ -16,9 +16,19 @@ const FooterContainer = styled.footer`
 
 const TextFooter = styled(Text)`
   color: ${props => props.theme.colors.primaryLight};
+  font-size: 3vw;
+
+  @media screen and (min-width: 800px) {
+    font-size: 1.5rem;
+  }
 
   & a {
     color: ${props => props.theme.colors.primaryLight};
+    font-size: 3vw;
+
+    @media screen and (min-width: 800px) {
+      font-size: 1.5rem;
+    }
   }
 `;
 
@@ -26,7 +36,7 @@ const Footer = () => (
   <Box p={1} backgroundColor="#a9ddd615">
     <FooterContainer>
       <Fade left>
-        <TextFooter fontSize={[1, 2]}>
+        <TextFooter>
           <span>{`Ferran Montraveta's Portfolio - Build from `}</span>
           <Link target="_blank" href="https://github.com/EmaSuriano/gatsby-starter-mate/blob/master/README.md">Mate</Link>
           <span role="img" aria-label="heart">
