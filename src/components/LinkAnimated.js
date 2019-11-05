@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const LinkAnimated = styled.span`
   @import url('https://fonts.googleapis.com/css?family=Exo:100&display=swap');
   font-family: 'Exo', sans-serif;
-  font-size: 1.5rem;
+  font-size: calc(1rem + 1vw);
   text-decoration: none;
   position: relative;
   margin-bottom: 0;
