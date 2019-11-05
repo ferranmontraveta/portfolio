@@ -3,7 +3,7 @@ import styled from 'styled-components';
 const LinkAnimated = styled.span`
   @import url('https://fonts.googleapis.com/css?family=Exo:100&display=swap');
   font-family: 'Exo', sans-serif;
-  font-size: 2rem;
+  font-size: 1.5rem;
   text-decoration: none;
   position: relative;
   margin-bottom: 0;
@@ -21,7 +21,7 @@ const LinkAnimated = styled.span`
     right: 0;
     width: 0;
     bottom: -5px;
-    background: ${props => props.theme.colors.secondaryLight};
+    background: ${props => props.theme.colors.secondary};
     height: 5px;
     transition-property: width;
     transition-duration: 0.3s;
