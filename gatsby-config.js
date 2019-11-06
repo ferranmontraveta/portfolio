@@ -21,6 +21,13 @@ module.exports = {
         //accessToken: process.env.CONTENTFUL_ACCESS_TOKEN
       }
     },
+    {
+      resolve: `gatsby-plugin-google-analytics`,
+      options: {
+        // replace "UA-XXXXXXXXX-X" with your own Tracking ID
+        trackingId: "UA-151689367-1",
+      },
+    },
     `@contentful/gatsby-transformer-contentful-richtext`,
     'gatsby-transformer-remark',
     'gatsby-plugin-offline',
